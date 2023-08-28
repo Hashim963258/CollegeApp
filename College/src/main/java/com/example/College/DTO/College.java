@@ -13,6 +13,7 @@ import lombok.Data;
 @Data
 public class College 
 {
+	//automatic ID generation
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
