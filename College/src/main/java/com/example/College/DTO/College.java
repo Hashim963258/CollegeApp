@@ -7,6 +7,8 @@ import javax.persistence.Id;
 
 import lombok.Data;
 
+
+// this represents Entity Class
 @Entity
 @Data
 public class College 
